@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Sans-serif;
+}
+nav{
+    display: flex;
+    box-shadow:3px 3px 5px 6px #ccc;
+    justify-content: space-evenly;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.nav-center{
+    display: flex;
+    align-items: center;
+    /* background-color: wheat; */
+}
+h4{
+    justify-content: flex-start;
+    color: rgb(137, 209, 28);
+    font-size: 18px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: black;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 220px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    /* text-transform: uppercase; */
+    width: 500px;
+    height: 80px;
+    flex-direction: column;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.color{
+    color: teal;
+}
+@media only screen and (max-width:500px){
+    nav{
+      width: 500px;  
+    }
+}
